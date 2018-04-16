@@ -1,0 +1,24 @@
+{
+  "name": "pizza-",
+  "version": "1.0.0",
+  "description": "Pizza lab using Express and views",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvictorious/Pizza-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvictorious/Pizza-/issues"
+  },
+  "homepage": "https://github.com/vvictorious/Pizza-#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
