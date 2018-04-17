@@ -3,8 +3,8 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const app = express();
-const pizzas = require('./pizza')
-console.log(pizzas);
+const pizza = require('./pizza')
+// console.log(pizzas);
 
 
 /* setting up port & listen */
@@ -20,18 +20,34 @@ app.set('view engine', 'ejs');
 /* error logger, static routes */
 app.use(logger('dev'));
 app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 
-app.get("/", function(req,res){
-	res.send('hi')
+
+app.get("/pizza/:flavor", function(req,res){
+	let flavor = req.params.flavor;
+	for(let i = 0; i < pizza.length; i++){
+		if(pizza[i].flavorKey == flavor){
+			console.log(pizza[i]);
+			juicy = pizza[i];
+			res.render('index2', {juicy});
+		}
+	}
+	// res.send(pizza);
+	// res.render('index', {pizza:pizza})
 })
 
 
-app.get("/pizzas/:id", function(req,res){
-	let id = req.params.id;
-	let pizza = pizzas[id-1];
-	response.send(pizza);
+
+app.get("/pizza", function(req,res){
+	console.log(pizza);
+	// res.send(pizza);
+	res.render('index', {pizza:pizza})
 })
+
+
+
+
 
 /* error handler */
 app.get('*', function(req, res) {
@@ -46,5 +62,7 @@ app.get('*', function(req, res) {
 
 //how do I get to req.params.id?
 //and can you clarify what "app.get("/pizzas/:id", function(req,res){" is doing 
+
+//what is index?
 
 //

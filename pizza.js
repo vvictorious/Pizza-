@@ -4,41 +4,41 @@ const pizza = [
     flavorKey: 'pepperoni',
     location: 'New York',
     locationKey: 'nyc',
-    image: '/static/img/pepperoni.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   },
   {
     flavor: 'cheese',
     flavorKey: 'cheese',
     location: 'New York',
     locationKey: 'nyc',
-    image: '/static/img/cheese.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   },
   {
     flavor: 'sausage',
     flavorKey: 'sausage',
     location: 'New York',
     locationKey: 'nyc',
-    image: '/static/img/sausage.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   },
   {
     flavor: 'ham & mushroom',
     flavorKey: 'ham-mushroom',
     location: 'Italy',
     locationKey: 'italy',
-    image: '/static/img/ham-mushroom.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   },
   {
     flavor: 'deep dish',
     flavorKey: 'deep-dish',
     location: 'Chicago',
     locationKey: 'chicago',
-    image: '/static/img/deep-dish.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   },
   {
     flavor: 'pineapple',
     location: 'Hawaii',
     locationKey: 'hawaii',
-    image: '/static/img/pineapple.jpg',
+    image: 'https://cdn.vox-cdn.com/thumbor/JWomuYQiZue5Y6nx5QaaA9Il8ZY=/0x0:798x599/1200x800/filters:focal(0x0:798x599)/cdn.vox-cdn.com/uploads/chorus_image/image/46569362/pizza-hot-dogs.0.0.jpg',
   }
 ];
 
